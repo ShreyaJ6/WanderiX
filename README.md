@@ -39,7 +39,7 @@ g++ -std=c++17 main.cpp -o wanderix
 7. **Save**: `printPlan(ostream& out)` prints to the screen (`cout`) or to a file (`ofstream`), so saving reuses the same code.
 
 ## Data structures
-- Graph (adjacency list): roads
+- Graph (adjacency list): road
 - Min-heap: Dijkstra
 - 2D table `dist`: shortest times between all places
 - Max-heap: picking best places
