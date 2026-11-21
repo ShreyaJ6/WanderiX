@@ -25,7 +25,7 @@ g++ -std=c++17 main.cpp -o wanderix
 
 ## Steps
 1. **Shortest times (Graph)**: at start-up Dijkstra runs from every node and fills a table
-   `dist[a][b]` = fastest travel time from a to b.
+   `dist[a][b]` = fast travel time from a to b.
 2. **Filter**: remove places that cost more than the budget, don't match the mood, or are the start point.
 3. **Score** (0 to 1):
    `0.5 × moodMatch + 0.35 × (rating − 3)/2 + 0.15 × (1 − cost/budget) − 0.1 × (same category already picked)`
